@@ -40,7 +40,7 @@ class PostsSeeder extends Seeder
 
          $post_data = collect([]);
     
-         for ($i = 1; $i <= 10001; $i++) {
+         for ($i = 1; $i <= 100001; $i++) {
              $post_data->push([
                  'title' => $faker->unique()->name,
                  'slug' => $faker->unique()->name(),
